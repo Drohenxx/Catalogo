@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <title>Carrito</title>
+</head>
+
+<body>
+    <main class="contenedor">
+        <h1>Carrito de Compras</h1>
+        <div id="cart-items" class="group-card">
+            <!-- Los productos añadidos aparecerán aquí -->
+        </div>
+        <div class="cart-summary">
+            <h3>Total: <span id="cart-total">0 USD</span></h3>
+            <button id="order-button" class="btn btn-success">Ordenar</button>
+            <button id="clear-cart" class="btn btn-danger">Vaciar Carrito</button>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+    <script>
+        // Asegurarse de que la función loadCart se ejecuta correctamente
+        if (typeof loadCart === 'function') {
+            loadCart();
+        } else {
+            console.error('La función loadCart no está definida. Verifica el archivo main.js.');
+        }
+    </script>
+</body>
+
+</html>
