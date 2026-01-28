@@ -155,8 +155,15 @@ body {
         z-index: 1;
     }
 
+    a img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .contenedor {
         display: block;
+        padding: 0 10px;
 
     }
 
@@ -164,6 +171,7 @@ body {
 
         display: grid;
         padding: 0;
+
         margin-top: 150px;
     }
 
