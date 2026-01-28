@@ -165,14 +165,12 @@ body {
     .contenedor {
         display: block;
         padding: 0 10px;
-
     }
 
     .group-card {
 
         display: grid;
         padding: 0;
-
         margin-top: 150px;
     }
 
