@@ -130,6 +130,12 @@ button small {
     background-color: #c82333;
 }
 
+a img {
+
+    display: flex;
+    padding-top: 10px;
+}
+
 /* Centrar y agregar padding al título del carrito */
 main h1 {
     text-align: center;
