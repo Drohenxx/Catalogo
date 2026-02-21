@@ -98,6 +98,10 @@ button small {
     transition: transform 0.2s;
 }
 
+.card img {
+    height: 300px;
+}
+
 #cart-items .card:hover {
     transform: scale(1.05);
 }
